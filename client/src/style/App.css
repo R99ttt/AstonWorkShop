@@ -1,0 +1,21 @@
+/* Lior Poterman, Abo Rabia Rami */
+/* dynamic css for diffrent screen sizes */
+.items_container {
+  flex: 1;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.main_container {
+  padding: 10vh 0;
+  display: flex;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

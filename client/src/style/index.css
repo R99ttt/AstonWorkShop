@@ -1,0 +1,41 @@
+/* Lior Poterman, Abo Rabia Rami */
+/* width big as the screen */
+body {
+  max-width: 100vw;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* color varibales */
+:root {
+  --main-bg-color--button: rgb(13 148 136);
+  --main-bg-color--button-hover: rgb(15 118 110);
+  --main-ring-color--button: rgb(94 234 212);
+}
+
+/* button style */
+button {
+  transition: 0.2s;
+  font-weight: 500;
+  border: none;
+  color: white;
+  background-color: var(--main-bg-color--button);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--main-bg-color--button-hover);
+}
+
+button:focus {
+  box-shadow: 0 0 0 3px var(--main-ring-color--button);
+}

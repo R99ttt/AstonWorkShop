@@ -1,0 +1,35 @@
+/* Lior Poterman, Abo Rabia Rami */
+/* main container in miniCartItem component */
+.container {
+  border: 1px solid rgb(229 231 235);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+/* item name text in MiniCartItem */
+.item_name {
+  color: rgb(17 24 39);
+  letter-spacing: -0.025em;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+/* content container */
+.info_container {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/* price text in cartItem */
+.price {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: rgb(17 24 39);
+}

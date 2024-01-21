@@ -1,0 +1,24 @@
+/* Lior Poterman, Abo Rabia Rami */
+/* main container in Card component */
+.container {
+  border: 1px solid rgb(229 231 235);
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+/* price text in Card */
+.price {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: rgb(17 24 39);
+}
+
+/* item name text in Card */
+.item_name {
+  color: rgb(17 24 39);
+  letter-spacing: -0.025em;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}

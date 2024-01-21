@@ -1,0 +1,16 @@
+POST http://localhost:3001/cart
+Content-Type: application/json
+
+{
+   "_id":"64b6afa35aec555facd8d015",
+  "items": [
+    {
+      "id": 2,
+      "name": "Aston Martin DB12",
+      "price": 1901000,
+      "imageSrc": "/aston-martin-db12.png",
+      "qty": 1
+    }
+  ],
+  "total": 1901000
+}
