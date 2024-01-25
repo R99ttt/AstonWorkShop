@@ -95,6 +95,7 @@ useEffect(() => {
 ## Notes
 
 - If not working with a database, data is stored in JSON files.
+- **DATABASE-URL ISN'T INCLUDED IN THE PROJECT**
 
 ## Contributors
 
